@@ -1153,6 +1153,12 @@ Footer
   margin-bottom: 5px; 
 }
 
+.footer_fixed {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 
 /********************
  GENERAL UI ELEMENTS 
@@ -1250,13 +1256,12 @@ Input icons
   color: #ccc;
   display: block;
   position: absolute;
-  margin: 11px 2px 4px 10px;
   width: 16px;
   height: 16px;
   font-size: 16px;
   text-align: center;
     top: 11px;
-    left: 0px;
+    left: 5px;
 }
 
 .input-icon.right input {
